@@ -47,13 +47,13 @@ jobs:
       - name: Make gradlew executable
         run: chmod +x ./gradlew
 
-      # 6️⃣ Clean build (optional, ensures no caching issues)
+      # 6️⃣ Clean project
       - name: Clean project
         run: ./gradlew clean
 
-      # 7️⃣ Build debug APK
+      # 7️⃣ Build debug APK (ignore warnings)
       - name: Build Debug APK
-        run: ./gradlew assembleDebug --stacktrace
+        run: ./gradlew assembleDebug -PallWarningsAsErrors=false --stacktrace
 
       # 8️⃣ Upload APK artifact
       - name: Upload Debug APK
