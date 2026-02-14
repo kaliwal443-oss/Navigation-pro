@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Tactical Dark Theme - Navigation Pro -->
+    <style name="Theme.NavigationPro" parent="android:Theme.Material.NoActionBar">
+        <!-- Primary Colors -->
+        <item name="android:colorPrimary">@color/tactical_emerald</item>
+        <item name="android:colorPrimaryDark">@color/tactical_slate_900</item>
+        <item name="android:colorAccent">@color/tactical_amber</item>
+
+        <!-- Background -->
+        <item name="android:windowBackground">@color/tactical_slate_950</item>
+        <item name="android:navigationBarColor">@color/tactical_slate_900</item>
+        <item name="android:statusBarColor">@color/tactical_slate_900</item>
+
+        <!-- Text Colors -->
+        <item name="android:textColorPrimary">@color/tactical_white</item>
+        <item name="android:textColorSecondary">@color/tactical_slate_400</item>
+
+        <!-- Window properties -->
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowActionBar">false</item>
+        <item name="android:windowFullscreen">false</item>
+        <item name="android:windowContentOverlay">@null</item>
+
+        <!-- System UI -->
+        <item name="android:windowLightStatusBar">false</item>
+        <item name="android:windowLightNavigationBar">false</item>
+    </style>
+
+    <!-- Splash Theme -->
+    <style name="Theme.NavigationPro.Splash" parent="Theme.NavigationPro">
+        <item name="android:windowBackground">@color/tactical_slate_950</item>
+    </style>
+</resources>

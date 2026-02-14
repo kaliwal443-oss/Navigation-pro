@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+    Vector Foreground for Navigation Pro Adaptive Icon
+    Tactical compass design with neon green accents
+    Fallback to PNG if vector rendering issues occur
+-->
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="108dp"
+    android:height="108dp"
+    android:viewportWidth="108"
+    android:viewportHeight="108">
+    
+    <!-- Outer Circle Ring -->
+    <path
+        android:fillColor="#00000000"
+        android:strokeColor="#10b981"
+        android:strokeWidth="2"
+        android:pathData="M54,14 A40,40 0 1,1 53.99,14" />
+    
+    <!-- Crosshair Lines -->
+    <path
+        android:strokeColor="#334155"
+        android:strokeWidth="1"
+        android:pathData="M54,14 L54,94 M14,54 L94,54" />
+    
+    <!-- Compass Needle - North (Neon Green) -->
+    <path
+        android:fillColor="#10b981"
+        android:pathData="M54,22 L58,50 L54,46 L50,50 Z" />
+    
+    <!-- Compass Needle - South (Dark) -->
+    <path
+        android:fillColor="#1e293b"
+        android:pathData="M54,86 L58,58 L54,62 L50,58 Z" />
+    
+    <!-- Center GPS Pin -->
+    <path
+        android:fillColor="#10b981"
+        android:pathData="M54,44 A10,10 0 1,1 53.99,44 M54,54 L54,66" />
+    
+    <!-- Cardinal Direction Markers -->
+    <path
+        android:strokeColor="#ffffff"
+        android:strokeWidth="2"
+        android:pathData="M54,18 L54,22 M86,54 L82,54 M54,90 L54,86 M18,54 L22,54" />
+    
+    <!-- Inner Circle -->
+    <path
+        android:fillColor="#00000000"
+        android:strokeColor="#475569"
+        android:strokeWidth="1"
+        android:pathData="M54,34 A20,20 0 1,1 53.99,34" />
+    
+    <!-- Degree Ticks -->
+    <group>
+        <path
+            android:strokeColor="#64748b"
+            android:strokeWidth="0.5"
+            android:pathData="M54,16 L54,18" />
+        <path
+            android:strokeColor="#64748b"
+            android:strokeWidth="0.5"
+            android:pathData="M88,54 L86,54" />
+        <path
+            android:strokeColor="#64748b"
+            android:strokeWidth="0.5"
+            android:pathData="M54,92 L54,90" />
+        <path
+            android:strokeColor="#64748b"
+            android:strokeWidth="0.5"
+            android:pathData="M16,54 L18,54" />
+    </group>
+</vector>

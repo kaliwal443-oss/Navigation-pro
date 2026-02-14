@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Navigation Pro</string>
+    <string name="app_name_tactical">NAV-PRO TACTICAL</string>
+
+    <!-- HUD Labels -->
+    <string name="label_latitude">LAT</string>
+    <string name="label_longitude">LNG</string>
+    <string name="label_easting">E</string>
+    <string name="label_northing">N</string>
+    <string name="label_altitude">ALT</string>
+    <string name="label_accuracy">ACC</string>
+    <string name="label_speed">SPD</string>
+    <string name="label_heading">HDG</string>
+    <string name="label_satellites">SAT</string>
+    <string name="label_grid_zone">ZONE</string>
+
+    <!-- Units -->
+    <string name="unit_meters">m</string>
+    <string name="unit_kmh">km/h</string>
+    <string name="unit_knots">kn</string>
+    <string name="unit_degrees">°</string>
+
+    <!-- Control Deck Tabs -->
+    <string name="tab_tools">TOOLS</string>
+    <string name="tab_plan">PLAN</string>
+    <string name="tab_map">MAP</string>
+
+    <!-- Tools -->
+    <string name="tool_compass">COMPASS</string>
+    <string name="tool_satellites">SATELLITES</string>
+    <string name="tool_almanac">ALMANAC</string>
+    <string name="tool_waypoints">WAYPOINTS</string>
+
+    <!-- Map Layers -->
+    <string name="layer_tactical">TACTICAL DARK</string>
+    <string name="layer_satellite">SATELLITE</string>
+    <string name="layer_topo">TOPOGRAPHIC</string>
+    <string name="layer_osm">STANDARD</string>
+
+    <!-- Actions -->
+    <string name="action_drop_marker">DROP MARKER</string>
+    <string name="action_my_location">MY LOCATION</string>
+    <string name="action_follow">FOLLOW</string>
+    <string name="action_unfollow">UNFOLLOW</string>
+    <string name="action_export_gpx">EXPORT GPX</string>
+    <string name="action_import_gpx">IMPORT GPX</string>
+    <string name="action_add_waypoint">ADD WAYPOINT</string>
+    <string name="action_delete">DELETE</string>
+    <string name="action_edit">EDIT</string>
+    <string name="action_save">SAVE</string>
+    <string name="action_cancel">CANCEL</string>
+
+    <!-- Dialogs -->
+    <string name="dialog_add_waypoint_title">Add Waypoint</string>
+    <string name="dialog_edit_waypoint_title">Edit Waypoint</string>
+    <string name="hint_waypoint_name">Waypoint Name</string>
+    <string name="hint_easting">Easting (m)</string>
+    <string name="hint_northing">Northing (m)</string>
+    <string name="hint_latitude">Latitude</string>
+    <string name="hint_longitude">Longitude</string>
+
+    <!-- GPS Status -->
+    <string name="gps_fix">FIX</string>
+    <string name="gps_no_fix">NO FIX</string>
+    <string name="gps_searching">SEARCHING…</string>
+    <string name="gps_2d">2D FIX</string>
+    <string name="gps_3d">3D FIX</string>
+
+    <!-- Errors -->
+    <string name="error_location_permission">Location permission required for navigation</string>
+    <string name="error_gps_disabled">GPS is disabled. Please enable location services.</string>
+    <string name="error_invalid_coordinates">Invalid coordinates</string>
+    <string name="error_export_failed">Export failed</string>
+    <string name="error_import_failed">Import failed</string>
+
+    <!-- Compass Directions -->
+    <string name="dir_n">N</string>
+    <string name="dir_ne">NE</string>
+    <string name="dir_e">E</string>
+    <string name="dir_se">SE</string>
+    <string name="dir_s">S</string>
+    <string name="dir_sw">SW</string>
+    <string name="dir_w">W</string>
+    <string name="dir_nw">NW</string>
+</resources>

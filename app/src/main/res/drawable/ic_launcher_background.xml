@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+    Vector Background for Navigation Pro Adaptive Icon
+    Deep slate gradient with subtle tactical grid pattern
+-->
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="108dp"
+    android:height="108dp"
+    android:viewportWidth="108"
+    android:viewportHeight="108">
+    
+    <!-- Base Background - Deep Slate -->
+    <path
+        android:fillColor="#0f172a"
+        android:pathData="M0,0h108v108h-108z" />
+    
+    <!-- Subtle Radial Gradient Effect (simulated with circles) -->
+    <path
+        android:fillColor="#1e293b"
+        android:pathData="M54,54m-50,0a50,50 0,1 1,100 0a50,50 0,1 1,-100 0"
+        android:fillAlpha="0.3" />
+    
+    <!-- Tactical Grid Lines - Horizontal -->
+    <path
+        android:strokeColor="#334155"
+        android:strokeWidth="0.3"
+        android:pathData="M0,27 L108,27 M0,54 L108,54 M0,81 L108,81" />
+    
+    <!-- Tactical Grid Lines - Vertical -->
+    <path
+        android:strokeColor="#334155"
+        android:strokeWidth="0.3"
+        android:pathData="M27,0 L27,108 M54,0 L54,108 M81,0 L81,108" />
+    
+    <!-- Corner Accents -->
+    <path
+        android:strokeColor="#10b981"
+        android:strokeWidth="1"
+        android:strokeAlpha="0.3"
+        android:pathData="M8,8 L20,8 M8,8 L8,20 M100,8 L88,8 M100,8 L100,20 M8,100 L20,100 M8,100 L8,88 M100,100 L88,100 M100,100 L100,88" />
+</vector>
